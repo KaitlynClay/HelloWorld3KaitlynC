@@ -31,7 +31,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
-                                    <action selector="changeBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="er0-rZ-HwA"/>
+                                    <action selector="changeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bnl-3o-zEC"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lfo-lv-ANm">
@@ -45,9 +45,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="btn" destination="7JV-QU-wSm" id="Rtu-wt-lrj"/>
-                        <outlet property="labelResult" destination="aGh-L5-YP0" id="AKp-vx-uiK"/>
-                        <outlet property="txtMessage" destination="lfo-lv-ANm" id="AdB-Ae-ZKY"/>
+                        <outlet property="labelResult" destination="aGh-L5-YP0" id="s7M-de-Vdm"/>
+                        <outlet property="txtmessage" destination="lfo-lv-ANm" id="Xhf-X6-N8B"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
