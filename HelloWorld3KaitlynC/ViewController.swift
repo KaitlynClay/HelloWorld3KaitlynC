@@ -9,9 +9,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet var labelResult: UILabel!
+    @IBOutlet weak var labelResult: UILabel!
 
-    @IBOutlet var textMessage: UITextField!
+    @IBOutlet weak var textMessage: UITextField!
     
     
     @IBAction func changeButton(_ sender: UIButton) {
@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     
     
     override func viewDidLoad() {
-//        super.viewDidLoad()
+        super.viewDidLoad()
 //        let label = UILabel()
 //        label.frame = CGRect(x:125, y:125, width: 200, height: 80)
 //        label.text = "This is a label"
