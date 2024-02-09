@@ -46,7 +46,7 @@
                     </view>
                     <connections>
                         <outlet property="labelResult" destination="aGh-L5-YP0" id="s7M-de-Vdm"/>
-                        <outlet property="txtmessage" destination="lfo-lv-ANm" id="Xhf-X6-N8B"/>
+                        <outlet property="txtDisplay" destination="lfo-lv-ANm" id="Xhf-X6-N8B"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
